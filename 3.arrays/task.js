@@ -17,7 +17,7 @@ function getUsersNamesInAgeRange(users, gender) {
     let sum = ages.reduce((acc, age) => {
         return acc + age;
     }, 0)
-    if (ages.length ===0) {
+    if (ages.length === 0) {
         return 0;
     }
     let ave = sum / ages.length;
