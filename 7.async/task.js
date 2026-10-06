@@ -1,7 +1,7 @@
 class AlarmClock {
     constructor() {
         this.alarmCollection = [];
-        this.intervalId = undefined;
+        this.intervalId = null;
     }
     addClock(time, callback) {
         if (!time || !callback) {
